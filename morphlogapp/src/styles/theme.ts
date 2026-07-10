@@ -1,0 +1,6 @@
+import {COLORS} from './colors';
+
+export const theme = {
+  colors: COLORS,
+  borderRadius: 18,
+};
