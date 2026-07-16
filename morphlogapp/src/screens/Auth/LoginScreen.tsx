@@ -1,17 +1,15 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-const LoginScreen = () => {
+export default function LoginScreen() {
   return (
     <View
       style={{
-        flex:1,
-        justifyContent:'center',
-        alignItems:'center',
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
       }}>
       <Text>Login Screen</Text>
     </View>
   );
-};
-
-export default LoginScreen;
+}

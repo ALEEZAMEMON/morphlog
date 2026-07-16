@@ -1,11 +1,19 @@
-export const COLORS = {
-  primary: '#8B5CF6',
-  secondary: '#F8D7C8',
-  background: '#FFF8F5',
-  white: '#FFFFFF',
-  black: '#222222',
-  gray: '#777777',
-  lightGray: '#EEEEEE',
-  success: '#4CAF50',
-  error: '#F44336',
+export const Colors = {
+  primary: "#6C63FF",
+  secondary: "#A78BFA",
+
+  background: "#F8F9FD",
+  surface: "#FFFFFF",
+
+  text: "#1F2937",
+  subtitle: "#6B7280",
+
+  success: "#22C55E",
+  warning: "#F59E0B",
+  error: "#EF4444",
+
+  border: "#E5E7EB",
+
+  white: "#FFFFFF",
+  black: "#000000",
 };
