@@ -5,22 +5,21 @@ import {
   StyleSheet,
   Text,
 } from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 const SplashScreen = () => {
+  const navigation = useNavigation<any>();
 
   useEffect(() => {
-
-    setTimeout(() => {
-
-      // Later we will navigate to Welcome Screen
-
+    const timer = setTimeout(() => {
+      navigation.replace('Welcome');
     }, 2500);
 
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <View style={styles.container}>
-
       <Image
         source={require('../../assets/images/logo.png')}
         style={styles.logo}
@@ -33,7 +32,6 @@ const SplashScreen = () => {
       <Text style={styles.subtitle}>
         Transform Your Progress
       </Text>
-
     </View>
   );
 };
@@ -41,7 +39,6 @@ const SplashScreen = () => {
 export default SplashScreen;
 
 const styles = StyleSheet.create({
-
   container: {
     flex: 1,
     backgroundColor: '#FFFFFF',
@@ -67,5 +64,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#777',
   },
-
 });
