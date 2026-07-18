@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    backgroundColor: '#FEE4CC',
+    backgroundColor: '#FFFFFF',
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 30,
@@ -94,8 +94,8 @@ description: {
   fontSize: 17,
   color: '#7A6A63',
   textAlign: 'center',
-  lineHeight: 25,
-  marginBottom: 60,
+  lineHeight: 20,
+  marginBottom: 35,
 },
 
   button: {
