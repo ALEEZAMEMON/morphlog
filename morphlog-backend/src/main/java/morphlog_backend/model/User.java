@@ -42,6 +42,27 @@ public class User {
     @Column(nullable = false)
     private String country;
 
+    // Tracking Preferences
+    @Builder.Default
+    @Column(name = "track_weight")
+    private boolean trackWeight = true;
+
+    @Builder.Default
+    @Column(name = "track_height")
+    private boolean trackHeight = true;
+
+    @Builder.Default
+    @Column(name = "track_acne")
+    private boolean trackAcne = false;
+
+    @Builder.Default
+    @Column(name = "track_hair")
+    private boolean trackHair = false;
+
+    @Builder.Default
+    @Column(name = "track_scars")
+    private boolean trackScars = false;
+
     @CreationTimestamp
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;

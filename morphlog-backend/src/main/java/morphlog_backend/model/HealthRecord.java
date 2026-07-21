@@ -38,6 +38,9 @@ public class HealthRecord {
     @Column(name = "hair_growth_score")
     private Integer hairGrowthScore;
 
+    @Column(name = "scars_level")
+    private Integer scarsLevel;
+
     @CreationTimestamp
     @Column(name = "record_date", updatable = false)
     private LocalDateTime recordDate;

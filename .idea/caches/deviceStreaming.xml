@@ -148,13 +148,6 @@
           <option name="screenY" value="2160" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
-<<<<<<< HEAD
-          <option name="api" value="33" />
-          <option name="brand" value="TECNO" />
-          <option name="codename" value="TECNO-BG6" />
-          <option name="id" value="TECNO-BG6" />
-          <option name="labId" value="google" />
-=======
           <option name="api" value="31" />
           <option name="brand" value="TECNO" />
           <option name="codename" value="TECNO-BF6" />
@@ -172,7 +165,6 @@
           <option name="codename" value="TECNO-BG6" />
           <option name="id" value="TECNO-BG6" />
           <option name="labId" value="google" />
->>>>>>> 1653782 (auth created: implemented register and login logic, DTOs, and JPA entities with H2 support)
           <option name="manufacturer" value="TECNO MOBILE LIMITED" />
           <option name="name" value="SPARK Go 2024" />
           <option name="screenDensity" value="320" />
@@ -216,8 +208,6 @@
           <option name="screenY" value="1600" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
-<<<<<<< HEAD
-=======
           <option name="api" value="34" />
           <option name="brand" value="samsung" />
           <option name="codename" value="a04s" />
@@ -230,7 +220,6 @@
           <option name="screenY" value="1600" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
->>>>>>> 1653782 (auth created: implemented register and login logic, DTOs, and JPA entities with H2 support)
           <option name="api" value="35" />
           <option name="brand" value="samsung" />
           <option name="codename" value="a05s" />
@@ -653,8 +642,6 @@
         <PersistentDeviceSelectionData>
           <option name="api" value="36" />
           <option name="brand" value="samsung" />
-<<<<<<< HEAD
-=======
           <option name="codename" value="b0qksx" />
           <option name="id" value="b0qksx" />
           <option name="labId" value="google" />
@@ -667,7 +654,6 @@
         <PersistentDeviceSelectionData>
           <option name="api" value="36" />
           <option name="brand" value="samsung" />
->>>>>>> 1653782 (auth created: implemented register and login logic, DTOs, and JPA entities with H2 support)
           <option name="codename" value="b4qsqw" />
           <option name="id" value="b4qsqw" />
           <option name="labId" value="google" />
