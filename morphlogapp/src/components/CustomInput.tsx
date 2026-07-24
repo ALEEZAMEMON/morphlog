@@ -65,14 +65,15 @@ const styles = StyleSheet.create({
 
   },
 
-  input: {
-    height: 38,
-    borderWidth: 1,
-    borderColor: '#ECECEC',
-    borderRadius: 14,
-    paddingHorizontal: 16,
-    fontSize: 15,
-    backgroundColor: '#FFFFFF',
-  },
+ input: {
+   height: 38,
+   borderWidth: 1,
+   borderColor: '#ECECEC',
+   borderRadius: 14,
+   paddingHorizontal: 16,
+   fontSize: 15,
+   backgroundColor: '#FFFFFF',
+   color: '#222222',
+ }
 
   });
