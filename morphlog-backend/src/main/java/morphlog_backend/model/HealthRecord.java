@@ -26,10 +26,8 @@ public class HealthRecord {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    @Column(precision = 5, scale = 2)
     private Double weight;
 
-    @Column(precision = 5, scale = 2)
     private Double height;
 
     @Column(name = "acne_level")
