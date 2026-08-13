@@ -16,7 +16,7 @@ const SplashScreen = () => {
     }, 2500);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [navigation]);
 
   return (
     <View style={styles.container}>
@@ -41,7 +41,7 @@ export default SplashScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#FFD0B4',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -56,12 +56,12 @@ const styles = StyleSheet.create({
     marginTop: 20,
     fontSize: 32,
     fontWeight: '700',
-    color: '#5B3DF5',
+    color: '#8B4F3F',
   },
 
   subtitle: {
     marginTop: 10,
     fontSize: 16,
-    color: '#777',
+    color: '#795548',
   },
 });
