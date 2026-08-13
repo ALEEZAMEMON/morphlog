@@ -10,11 +10,9 @@ import {
 import {useNavigation} from '@react-navigation/native';
 
 const WelcomeScreen = () => {
-
   const navigation = useNavigation<any>();
 
   return (
-
     <View style={styles.container}>
 
       <Image
@@ -54,18 +52,15 @@ const WelcomeScreen = () => {
       </TouchableOpacity>
 
     </View>
-
   );
-
 };
 
 export default WelcomeScreen;
 
 const styles = StyleSheet.create({
-
   container: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#FFD0B4',
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 30,
@@ -78,46 +73,44 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
 
-title: {
-  fontSize: 28,
-  color: '#5A4A42',
-},
+  title: {
+    fontSize: 28,
+    color: '#5A4A42',
+  },
 
-appName: {
-  fontSize: 42,
-  fontWeight: 'bold',
-  color: '#6B46F6',
-  marginBottom: 15,
-},
+  appName: {
+    fontSize: 42,
+    fontWeight: 'bold',
+    color: '#8B4F3F',
+    marginBottom: 15,
+  },
 
-description: {
-  fontSize: 17,
-  color: '#7A6A63',
-  textAlign: 'center',
-  lineHeight: 20,
-  marginBottom: 35,
-},
+  description: {
+    fontSize: 17,
+    color: '#6D5147',
+    textAlign: 'center',
+    lineHeight: 24,
+    marginBottom: 35,
+  },
 
   button: {
     width: '100%',
-    backgroundColor: '#6B46F6',
+    backgroundColor: '#B85C3A',
     padding: 18,
     borderRadius: 20,
     alignItems: 'center',
     marginBottom: 20,
-
   },
 
   buttonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: 'bold',
     fontSize: 18,
   },
 
   loginText: {
-    color: '#6B46F6',
+    color: '#8B4F3F',
     fontSize: 16,
     fontWeight: '600',
   },
-
 });

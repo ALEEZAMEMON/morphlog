@@ -1,17 +1,12 @@
-export const COLORS = {
-  background: '#FEE4CC',
+const colors = {
+  primary: '#FFD0B4',
 
-  primary: '#6B46F6',
-
-  secondary: '#FF8A3D',
+  background: '#FFD0B4',
 
   white: '#FFFFFF',
+  black: '#000000',
 
-  text: '#5A4A42',
-
-  lightText: '#7A6A63',
-
-  card: '#FFF8F2',
-
-  border: '#F3D8C3',
+  // Keep your other existing colors here
 };
+
+export default colors;
