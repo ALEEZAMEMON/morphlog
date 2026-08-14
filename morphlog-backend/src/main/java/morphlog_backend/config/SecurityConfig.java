@@ -22,9 +22,10 @@ import java.util.List;
 @EnableWebSecurity
 public class SecurityConfig {
 
-    @Bean
-    public AuthTokenFilter authenticationJwtTokenFilter() {
-        return new AuthTokenFilter();
+    private final AuthTokenFilter authTokenFilter;
+
+    public SecurityConfig(AuthTokenFilter authTokenFilter) {
+        this.authTokenFilter = authTokenFilter;
     }
 
     @Bean
@@ -42,7 +43,7 @@ public class SecurityConfig {
                     .anyRequest().authenticated()
             );
 
-        http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+        http.addFilterBefore(authTokenFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }
@@ -50,7 +51,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("*")); // For development, allow all
+        configuration.setAllowedOrigins(List.of("*"));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("authorization", "content-type", "x-auth-token"));
         configuration.setExposedHeaders(List.of("x-auth-token"));

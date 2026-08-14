@@ -10,4 +10,5 @@ public class MorphlogBackendApplication {
 		SpringApplication.run(MorphlogBackendApplication.class, args);
 	}
 
+	
 }
